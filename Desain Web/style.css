@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.top-nav {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+    position: relative;
+}
+
+.top-nav_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.top-nav_list li {
+    margin-right: 20px;
+}
+
+.top-nav_switch {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    border-top: 50%;
+    border-right: 0;
+}
+
+.top-nav_switch:hover {
+    text-decoration: underline;
+}
+
+.top-nav_switch-dark,
+.top-nav_switch-light {
+    cursor: pointer;
+    color: red;
+    margin-right: 10px;
+}
+
+.top-nav_switch-dark:hover,
+.top-nav_switch-light:hover {
+    text-decoration: underline;
+}
+
+.top-nav_switch-text {
+    font-weight: bold;
+}
+
+.header {
+    background-color: blue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header__display {
+    font-size: 24px;
+}
+
+
+.header img {
+    max-width: 100%;
+    height: 100px;
+    width: 350px;
+}
+
+main {
+    padding: 20px;
+}
+
+.highlighted-notice {
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.highlighted-notice a {
+    color: black;
+    text-decoration: underline;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d\card {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.card__title {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card__title-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.card__image {
+    margin-top: 10px;
+}
+
+.card__list {
+    list-style: none;
+}
+
+.card__list-item {
+    margin-top: 5px;
+}
+
+.card__list-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: turquoise;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__links a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer__text {
+    margin-top: 10px;
+}
